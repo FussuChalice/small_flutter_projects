@@ -46,7 +46,8 @@ class _ApplicationState extends State<Application> {
                 ],
                 onDestinationSelected: (int index) {
                   if (index == 1) {
-                    launchUrl(Uri.parse("https://github.com/"));
+                    launchUrl(Uri.parse(
+                        "https://github.com/FussuChalice/small_flutter_projects/tree/master/flutter_bloc_counter"));
                   }
                 },
               ),
